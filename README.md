@@ -1,6 +1,6 @@
 # <Placeholder> Blockchain Node
 
-This project aims to provide installation, running, and maintenance capabilities of **<Placeholder> validator node** for potential and existing <Placeholder> Blockchain backers. The consensus structure of this chain is delegated proof of stake "DPos" and is governed by the symbiosis of <Placeholder>'s implementation of go-ethereum and our system contracts [https://github.com/optimusz7/system-smart-contracts]. This repository has multiple release candidates inline so we recommend checking for updates for better functions and stability.
+This project aims to provide installation, running, and maintenance capabilities of **<Placeholder> validator node** for potential and existing <Placeholder> Blockchain backers. The consensus structure of this chain is delegated proof of stake "DPos" and is governed by the symbiosis of <Placeholder>'s implementation of go-ethereum and our system contracts [https://github.com/Blockdev7/system-contracts]. This repository has multiple release candidates inline so we recommend checking for updates for better functions and stability.
 
 
 ## Acknowledgements
@@ -35,7 +35,7 @@ To back the <Placeholder> blockchain you can become a validator. Full flow to be
 * On your server, start the node that you just installed **([See Usage/Example](#usageexamples))**
 * Once the node is started and confirmation is seen on your terminal, open the interactive console by attaching tmux session **([See Usage/Example](#usageexamples))**
 * Once inside the interactive console, you'll see "IMPORTED TRANSACTION OBJECTS" and "age=<some period like 6d5hr or 5mon 3weeks>". You need to wait until the "unauthorized validator" warning starts to pop up on the console. 
-* Once "unauthorized validators" warning shows up, go to https://staking.<Placeholder>.io/ and click "Become a validator". Fill in all the details in the form, in the "Fee address" field enter the validator wallet address that you imported into your metamask. Proceed further
+* Once "unauthorized validators" warning shows up, go to https://validator.optimusz7.com/ and click "Become a validator". Fill in all the details in the form, in the "Fee address" field enter the validator wallet address that you imported into your metamask. Proceed further
 * Once the last step is done, you'll see a "🔨 mined potential block" message on the interactive console. You'll also see your validator wallet as a validator on the staking page and on explorer. You should also detach from the console after the whole process is done **([See Usage/Example](#usageexamples))**
 ## Installation
 
